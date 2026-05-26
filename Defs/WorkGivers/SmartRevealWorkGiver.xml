@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>WorkGiver_SmartReveal</defName>
+    <giverClass>SmartScannerReveal.WorkGiver_SmartReveal</giverClass>
+    <workType>Research</workType>
+    <priorityInType>90</priorityInType>
+    <verb>operate the strategic scanner</verb>
+    <gerund>operating the strategic scanner</gerund>
+  </WorkGiverDef>
+</Defs>

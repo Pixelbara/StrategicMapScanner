@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Strategic Map Scanner -->
+  <StrategicMapScanner.label>стратегический сканер карты</StrategicMapScanner.label>
+  <StrategicMapScanner.description>Мощный сканер, использующий модифицированное радиационное излучение для полной разведки карты. (Потенциально)безопасен для колонистов. Требует 100 урана для запуска.</StrategicMapScanner.description>
+
+</LanguageData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>StrategicMapScanner</defName>
+    <label>strategic map scanner</label>
+    <description>A powerful scanner that uses modified radiation emission to fully reveal the map. Safe for colonists. Requires 100 Uranium to activate.</description>
+    
+    <graphicData>
+      <texPath>Buildings/StrategicMapScanner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.0, 2.0)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>16000</WorkToBuild>
+      <Flammability>0.3</Flammability>
+    </statBases>
+    
+    <size>(1,2)</size>
+    <passability>Impassable</passability>
+    <fillPercent>1.0</fillPercent>
+    <pathCost>150</pathCost>
+    <castEdgeShadows>true</castEdgeShadows>
+    <tickerType>Normal</tickerType>
+    
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    
+    <costList>
+      <Plasteel>380</Plasteel>
+      <ComponentSpacer>5</ComponentSpacer>
+      <Uranium>20</Uranium>
+    </costList>
+    
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <compClass>CompRefuelable</compClass>
+        <fuelCapacity>100</fuelCapacity>
+        <fuelConsumptionRate>0</fuelConsumptionRate>
+        <fuelFilter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <atomicFueling>false</atomicFueling>
+        <initialFuelPercent>0</initialFuelPercent>
+        <outOfFuelMessage>Out of Uranium.</outOfFuelMessage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="SmartScannerReveal.CompProperties_SmartReveal" />
+    </comps>
+    
+    <designationCategory>Misc</designationCategory>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <destroyable>true</destroyable>
+    
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>StrategicMapScannerResearch</li>
+      <li>AdvancedFabrication</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ResearchProjectDef>
+    <defName>StrategicMapScannerResearch</defName>
+    <label>strategic map scanner</label>
+    <description>Unlocks construction of the Strategic Map Scanner.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>GroundPenetratingScanner</li>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <tab>Main</tab>
+    <researchViewX>20</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <StrategicMapScanner_MapRevealed>The entire map has been fully revealed! 100 Uranium consumed.</StrategicMapScanner_MapRevealed>
+  <StrategicMapScanner_MapRevealedLabel>Map Fully Revealed</StrategicMapScanner_MapRevealedLabel>
+  <StrategicMapScanner_MapRevealedDesc>The Strategic Map Scanner has successfully revealed the whole area.</StrategicMapScanner_MapRevealedDesc>
+
+  <StrategicMapScanner_InspectOFF>Reveal mode: OFF\nRequires 100 Uranium</StrategicMapScanner_InspectOFF>
+  <StrategicMapScanner_Progress>Reveal progress: {0:F1}%</StrategicMapScanner_Progress>
+
+  <StrategicMapScanner_RevealON>Reveal Mode: ON</StrategicMapScanner_RevealON>
+  <StrategicMapScanner_RevealOFF>Reveal Mode: OFF</StrategicMapScanner_RevealOFF>
+  <StrategicMapScanner_RevealDesc>Colonists will gradually reveal the entire map.</StrategicMapScanner_RevealDesc>
+  <StrategicMapScanner_NeedUranium>Requires 100 Uranium</StrategicMapScanner_NeedUranium>
+
+</LanguageData>

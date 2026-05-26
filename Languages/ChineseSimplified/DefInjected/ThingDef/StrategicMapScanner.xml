@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Strategic Map Scanner -->
+  <StrategicMapScanner.label>战略地图扫描仪</StrategicMapScanner.label>
+  <StrategicMapScanner.description>强大的扫描仪，利用经过改良的辐射发射来完全侦察地图。对殖民者（潜在地）安全。需要100单位铀才能启动。</StrategicMapScanner.description>
+</LanguageData>

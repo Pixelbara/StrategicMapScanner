@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Messages and Letters -->
+  <StrategicMapScanner_MapRevealed>Вся карта успешно раскрыта! Потрачено 100 урана.</StrategicMapScanner_MapRevealed>
+  <StrategicMapScanner_MapRevealedLabel>Карта полностью раскрыта</StrategicMapScanner_MapRevealedLabel>
+  <StrategicMapScanner_MapRevealedDesc>Стратегический сканер успешно раскрыл всю область карты.</StrategicMapScanner_MapRevealedDesc>
+
+  <!-- Inspect string -->
+  <StrategicMapScanner_InspectOFF>Режим раскрытия: ВЫКЛ\nТребуется 100 урана</StrategicMapScanner_InspectOFF>
+  <StrategicMapScanner_Progress>Прогресс раскрытия: {0:F1}%</StrategicMapScanner_Progress>
+
+  <!-- Gizmo -->
+  <StrategicMapScanner_RevealON>Режим раскрытия: ВКЛ</StrategicMapScanner_RevealON>
+  <StrategicMapScanner_RevealOFF>Режим раскрытия: ВЫКЛ</StrategicMapScanner_RevealOFF>
+  <StrategicMapScanner_RevealDesc>Колонисты будут постепенно раскрывать всю карту.</StrategicMapScanner_RevealDesc>
+  <StrategicMapScanner_NeedUranium>Требуется загрузить 100 урана</StrategicMapScanner_NeedUranium>
+
+</LanguageData>

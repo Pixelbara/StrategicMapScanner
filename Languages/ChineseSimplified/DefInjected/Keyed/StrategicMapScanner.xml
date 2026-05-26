@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Messages and Letters -->
+  <StrategicMapScanner_MapRevealed>整张地图已成功揭示！消耗了100单位铀。</StrategicMapScanner_MapRevealed>
+  <StrategicMapScanner_MapRevealedLabel>地图已完全揭示</StrategicMapScanner_MapRevealedLabel>
+  <StrategicMapScanner_MapRevealedDesc>战略地图扫描仪成功揭示了整个区域。</StrategicMapScanner_MapRevealedDesc>
+
+  <!-- Inspect string -->
+  <StrategicMapScanner_InspectOFF>揭示模式：关闭\n需要100单位铀</StrategicMapScanner_InspectOFF>
+  <StrategicMapScanner_Progress>揭示进度：{0:F1}%</StrategicMapScanner_Progress>
+
+  <!-- Gizmo -->
+  <StrategicMapScanner_RevealON>揭示模式：开启</StrategicMapScanner_RevealON>
+  <StrategicMapScanner_RevealOFF>揭示模式：关闭</StrategicMapScanner_RevealOFF>
+  <StrategicMapScanner_RevealDesc>殖民者将逐渐揭示整张地图。</StrategicMapScanner_RevealDesc>
+  <StrategicMapScanner_NeedUranium>需要装填100单位铀</StrategicMapScanner_NeedUranium>
+
+</LanguageData>

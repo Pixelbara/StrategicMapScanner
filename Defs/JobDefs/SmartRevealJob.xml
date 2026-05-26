@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>SmartRevealMap</defName>
+    <driverClass>SmartScannerReveal.JobDriver_SmartReveal</driverClass>
+    <reportString>revealing the strategic map.</reportString>
+    <joyGainRate>0</joyGainRate>
+    <suspendable>true</suspendable>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+</Defs>
