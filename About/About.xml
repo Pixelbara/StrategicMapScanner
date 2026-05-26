@@ -2,11 +2,12 @@
 <ModMetaData>
   <name>Strategic Map Scanner</name>
   <author>Pixelbara</author>
+  <url>https://github.com/Pixelbara/StrategicMapScanner</url>
   <packageId>pixelbara.strategicmapscanner</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <modVersion>1.2</modVersion>
+  <modVersion>1.2.1</modVersion>
   <description>A powerful scanner utilizing modified radiation emission. Enables colonists to fully reveal the map. Requires Uranium.</description>
   <modDependencies>
     <li>
@@ -17,5 +18,4 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-
 </ModMetaData>
